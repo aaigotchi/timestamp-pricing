@@ -54,3 +54,5 @@ else
   COINGECKO_DATE=$(date -d "@$EPOCH" +%d-%m-%Y 2>/dev/null || date -r "$EPOCH" +%d-%m-%Y)
   bash "$(dirname "$0")/price-lookup.sh" "$TOKEN" "$COINGECKO_DATE"
 fi
+
+# Note: For AAI (aaigotchi) token, use the symbol directly

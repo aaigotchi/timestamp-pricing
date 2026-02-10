@@ -26,6 +26,7 @@ TOKENS[UNI]="uniswap"
 TOKENS[AAVE]="aave"
 TOKENS[LINK]="chainlink"
 TOKENS[SOL]="solana"
+TOKENS[AAI]="aaigotchi"
 
 TOKEN_UPPER=$(echo "$TOKEN" | tr '[:lower:]' '[:upper:]')
 TOKEN_ID="${TOKENS[$TOKEN_UPPER]:-$(echo "$TOKEN" | tr '[:upper:]' '[:lower:]')}"

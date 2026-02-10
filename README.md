@@ -51,7 +51,7 @@ The smart lookup automatically chooses the best data source:
 
 ```bash
 # Recent timestamp (uses Bankr - real-time)
-bash scripts/smart-price-lookup.sh GHST "2026-02-10 11:45:00"
+bash scripts/smart-price-lookup.sh AAI "2026-02-10 04:20:00"
 
 # Older timestamp (uses CoinGecko - historical)
 bash scripts/smart-price-lookup.sh ETH "2026-01-15"
@@ -74,7 +74,7 @@ bash scripts/price-lookup.sh GHST 15-01-2026
 ### Example 1: Real-time Price (Today)
 
 ```bash
-$ bash scripts/smart-price-lookup.sh GHST "2026-02-10 11:45:00"
+$ bash scripts/smart-price-lookup.sh AAI "2026-02-10 04:20:00"
 ```
 
 Output:
